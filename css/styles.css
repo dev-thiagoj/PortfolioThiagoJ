@@ -49,12 +49,18 @@
     margin-bottom: 25px;
 }
 
+#bio-container h3 {
+    font-size: 25px;
+}
+
 #bio-container p{
     margin-bottom: 20px;
 }
 
 #bio-container #welcome-text {
     font-weight: bold;
+    font-size: 20px;
+    font-style: inherit;
 }
 
 #bio-container img {
@@ -123,6 +129,18 @@
     font-weight: bold;
 }
 
+#about-container img {
+    width: 150px;
+    height: 150px;
+}
+
+#about-image {
+    width: 175px;
+    height: 98px;
+    border-style: none;
+    margin-bottom: 25px;
+}
+
 .description {
     max-width: 75%;
     margin-bottom: 10px;
@@ -155,7 +173,7 @@
 }
 
 #btn-projects:hover {
-    background-color: transparent;
+    background-color: transparent;    
 }
 
 #skills-section-title {
@@ -186,6 +204,38 @@
 }
 
 .skills-box i {
+    font-size: 80px;
+    margin-right: 10px;
+}
+
+#certificates-section-title {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.certificates-box {
+    flex: 1 1 33%;
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+
+.certificates-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid var(--main-color);
+}
+
+.certificates-box i {
     font-size: 80px;
     margin-right: 10px;
 }
