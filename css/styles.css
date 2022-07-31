@@ -9,6 +9,7 @@
 /* Variables */
 :root {
     --main-color: #54B689;
+    --main-color-hover: #347054;
     --main-text-color: #FFF;
     --border-color: #999;
     --bio-bg-color: #1E2A3A;
@@ -164,7 +165,7 @@
 
 #btn-projects ion-icon,
 #btn-projects span {
-    flex: 1 1 0;    
+    flex: 1 1 0;
 }
 
 #btn-projects ion-icon {
@@ -173,7 +174,7 @@
 }
 
 #btn-projects:hover {
-    background-color: transparent;    
+    background-color: var(--main-color-hover);
 }
 
 #skills-section-title {
@@ -224,7 +225,7 @@
 .certificates-box {
     flex: 1 1 33%;
     max-width: 100%;
-    margin-bottom: 35px;
+    margin: auto;
 }
 
 .certificates-title {
@@ -258,7 +259,7 @@
 
 #btn-certificates ion-icon,
 #btn-certificates span {
-    flex: 1 1 0;    
+    flex: 1 1 0;
 }
 
 #btn-certificates ion-icon {
@@ -267,7 +268,7 @@
 }
 
 #btn-certificates:hover {
-    background-color: transparent;    
+    background-color: var(--main-color-hover);  
 }
 
 /* Mobile */
