@@ -1,1 +1,1 @@
-dev-thiagoj.github.io
+dev-thiagoj.github.io/portfoliothiagoj
