@@ -237,7 +237,7 @@
 }
 
 .certificates-box {
-    flex: 1 1 50%;
+    flex: 1 1 25%;
     max-width: 100%;
     margin: auto;
 }
