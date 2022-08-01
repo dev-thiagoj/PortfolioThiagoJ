@@ -231,7 +231,7 @@
 }
 
 .projects-box {
-    flex: 1 1 100%;
+    flex: 1 1 25%;
     max-width: 100%;
     margin: auto;
 }
